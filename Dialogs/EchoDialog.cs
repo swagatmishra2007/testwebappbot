@@ -33,7 +33,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
             }
             else
             {
-                await context.PostAsync($"{this.count++}: You are talking to a github sample : {message.Text}");
+                await context.PostAsync($"{this.count++}: You are talking to a github sample imporved af: {message.Text}");
                 context.Wait(MessageReceivedAsync);
             }
         }
