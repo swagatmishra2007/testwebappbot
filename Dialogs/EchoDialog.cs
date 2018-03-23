@@ -33,8 +33,8 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
             }
             else
             {
-                await context.PostAsync($"{this.count++}: You said {message.Text} and this code has changed once");
-                context.Wait(MessageReceivedAsync);
+                await context.PostAsync($"{this.count++}: You said {message.Text} and this code has changed four times");
+                context.Wait(MessageReceivedAsync)
             }
         }
 
